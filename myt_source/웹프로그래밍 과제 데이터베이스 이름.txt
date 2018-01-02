@@ -1,0 +1,28 @@
+데이터베이스 명 
+
+myLittleTrip
+
+테이블 명
+member_info  
+
+필드 명
+m_id 	 varchar2(16) 	primary key 	아이디
+m_pass	  number	 not null 	비밀번호
+m_name	 varchar2(20)	 not null 	이름
+
+
+테이블 명
+program
+
+
+필드 명
+pr_authorno		int(11)			저자 일련 번호
+pr_code	 		varchar(64)		상품코드
+pr_name			varchar(255) 		프로그램 이름
+pr_emergency 		varchar(255)		가이드 비상연락망
+pr_language 		varchar(128) 		투어 진행언어
+pr_enrolldatetime 	datetime		등록일시
+pr_country		varchar(128)		국가명
+pr_explantion		varchar(255)		상품 소개
+pr_notice		varchar(255)		주의 사항
+pr_price		int(11)			가격

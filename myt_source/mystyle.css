@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { 
+  color : #000000; 
+  background : #ffffff; 
+  font-size : 12pt; 
+}
+
+.up_bar {
+	
+	background-color:#25A8C9;
+	padding:40px;
+	
+	}
+	
+.head_text {
+	color:#fff;
+	margin:10px;
+	
+	}
+	
+table.log_on {
+	background-color:#D6D6D6;
+	border:#000000;
+	
+	}
+	
+td{
+	margin: auto;
+	padding: 3px;
+	
+	}
+
